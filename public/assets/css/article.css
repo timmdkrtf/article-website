@@ -1,0 +1,45 @@
+.dropdown{
+    display: none;
+}
+
+.dropdown .dropdown-toggle{
+    border: none;
+    background-color: white !important;
+}
+.dropdown .dropdown-toggle:after{
+    display: none;
+}
+
+nav .breadcrumb{
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        justify-content: flex-start;
+        height: 72px;
+    }
+    .nav-edit{
+        align-self: center;
+        width: 100%;
+    }
+    .nav-create{
+        align-self: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .dropdown{
+        display: block;
+    }
+    td .button-see, .button-edit, .button-delete{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .judul .d-flex.mx-2.search{
+        display: none !important;
+    }
+}
